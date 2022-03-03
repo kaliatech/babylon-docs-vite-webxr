@@ -1,5 +1,5 @@
 {
-  "name": "babylon-webxr-test",
+  "name": "babylon-docs-vite-webxr",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -9,10 +9,12 @@
   },
   "devDependencies": {
     "typescript": "^4.5.4",
-    "vite": "^2.8.0"
+    "vite": "^2.8.6"
   },
   "dependencies": {
     "@babylonjs/core": "^5.0.0-beta.8",
     "@babylonjs/loaders": "^5.0.0-beta.8"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
