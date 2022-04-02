@@ -24,6 +24,12 @@ import '@babylonjs/loaders/glTF'
 //  FragmentOutput[FragmentOutputBlock] is not connected and is not optional.
 import '@babylonjs/core/Materials/Node/Blocks'
 
+// Import animatable side-effects with recent babylon v5.0.x releases for 
+// loading controllers, else:
+//  "TypeError: sceneToRenderTo.beginAnimation is not a function
+//   at WebXRMotionControllerTeleportation2._createDefaultTargetMesh (WebXRControllerTeleportation.ts:751:29)"
+import '@babylonjs/core/Animations/animatable'
+
 // Create a canvas element for rendering
 const app = document.querySelector<HTMLDivElement>('#app')
 const canvas = document.createElement('canvas')
